@@ -1,0 +1,39 @@
+.inputComponent {
+  width: 85%;
+  margin: 0 auto;
+  background: #252525;
+  border-radius: 15px;
+  font-family: "Rubik", sans-serif;
+  color: white;
+  border: 0;
+  padding: 0 25px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.5px;
+}
+
+.inputComponent:focus {
+  outline: none;
+}
+
+.inputComponent::placeholder {
+  color: white;
+}
+
+.inputWrapper {
+  display: flex;
+  height: 8%;
+  width: 85%;
+}
+
+.sendButton {
+  background-image: url(./assets/Vector.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 50px;
+  cursor: pointer;
+  height: 50px;
+}
